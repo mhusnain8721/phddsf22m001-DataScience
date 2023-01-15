@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+bearcalc/__init__.py
+bearcalc.egg-info/PKG-INFO
+bearcalc.egg-info/SOURCES.txt
+bearcalc.egg-info/dependency_links.txt
+bearcalc.egg-info/top_level.txt

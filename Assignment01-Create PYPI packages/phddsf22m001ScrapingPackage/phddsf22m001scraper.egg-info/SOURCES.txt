@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+phddsf22m001scraper/__init__.py
+phddsf22m001scraper.egg-info/PKG-INFO
+phddsf22m001scraper.egg-info/SOURCES.txt
+phddsf22m001scraper.egg-info/dependency_links.txt
+phddsf22m001scraper.egg-info/requires.txt
+phddsf22m001scraper.egg-info/top_level.txt
