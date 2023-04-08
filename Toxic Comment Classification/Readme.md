@@ -17,7 +17,42 @@ The solution caters to the problem in two different ways: -
 
 ## Data Distribution
 
-![Dataset distribution](Dataset-distribution.png)
+<img src="Dataset-distribution.png" alt="Dataset distribution" style="zoom:50%;" />
+
+## Results
+
+### Binary Classification
+
+Cross-Validation Accuracies for each toxicity facet over the three machine-learning models
+
+| Class  Labels | Logistic  Regression | Naïve  Bayes | CART   |
+| ------------- | -------------------- | ------------ | ------ |
+| Toxic         | 95.39%               | 94.43%       | 93.71% |
+| Severe Toxic  | 99.02%               | 99.05%       | 98.72% |
+| Obscene       | 97.52%               | 96.87%       | 96.93% |
+| Threat        | 99.71%               | 99.69%       | 99.64% |
+| Insul**t**    | 97.00%               | 96.54%       | 96.05% |
+| Identity Hate | 99.21%               | 99.12%       | 98.97% |
+
+![binary cross validation](binary-classification.png)
+
+
+
+
+
+### Multi-labeled Classification
+
+Multi-labeled Cross-Validation Accuracies
+
+| Classifier           | Cross-Validation  Accuracy |
+| -------------------- | -------------------------- |
+| Logistic  Regression | 91.48%                     |
+| Naïve  Bayes         | 90.78%                     |
+| CART                 | 89.54%                     |
+
+![Multi-labeled-cross-validation](Multi-labeled-cross-validation.png)
+
+
 
 ## Conclusion
 
