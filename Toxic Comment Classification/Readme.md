@@ -2,7 +2,7 @@
 
 This folder applies almost everything that I learned from this course.
 
-The main purpose of this study is to classify new comments against six types of toxicities. These toxicities are: -
+The main purpose of this project is to classify new comments against six types of toxicities. These toxicities are: -
 
 | toxic     | severe_toxic | obscene   | threat    | insult    | identity_hate |
 | --------- | ------------ | --------- | --------- | --------- | ------------- |
